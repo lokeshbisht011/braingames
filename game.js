@@ -4,8 +4,8 @@ let gridSize, rows, cols, canvasWidth, canvasHeight, playerX, playerY, grid, pat
 
 export function initGame(canvas, ctx) {
     gridSize = 40;
-    rows = 7;
-    cols = 7;
+    rows = 10;
+    cols = 10;
     canvasWidth = gridSize * cols;
     canvasHeight = gridSize * rows;
 
